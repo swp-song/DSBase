@@ -1,0 +1,16 @@
+PODS:
+  - DSBase (0.0.1)
+
+DEPENDENCIES:
+  - DSBase (from `../`)
+
+EXTERNAL SOURCES:
+  DSBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DSBase: 343ec7f35d28ce677f73893b52899fc225633eb3
+
+PODFILE CHECKSUM: 3073efbbba170fa011df822d35dffbdb6b79c9a8
+
+COCOAPODS: 1.10.0
