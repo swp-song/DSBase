@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DSBase"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "DSBase"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  TODO: DSBase, 公用命名空间
+  TODO: DSBase
                    DESC
 
   spec.homepage     = "https://github.com/swp-song/DSBase"
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
+   spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source_files  = "DSBase/Code", "DSBase/Code/**/*.swift"
-  spec.source_files          = 'DSBase/Code/*.swift'
+  spec.source_files          = 'DSBase/**/*.swift'
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -131,11 +131,12 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # spec.requires_arc = true
+  spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
-  spec.swift_versions = ['5.0']
+   spec.swift_versions = ['4', '4.2', '5.0']
+
 
 end

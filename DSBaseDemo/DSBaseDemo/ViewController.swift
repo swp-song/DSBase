@@ -16,17 +16,22 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         String.ds.test()
-        "111".ds.test()
+        "test".ds.test()
     }
 }
+
 extension DS where DSBase == String {
 
     static func test() -> Void {
         print(#function)
+        let ds = String.ds
+        print(ds)
     }
 
     func test() -> Void {
         print(#function)
+        let ds = self.ds
+        print(ds)
     }
 }
 

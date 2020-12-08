@@ -1,8 +1,8 @@
 {
   "name": "DSBase",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "DSBase",
-  "description": "DSBase",
+  "description": "TODO: DSBase",
   "homepage": "https://github.com/swp-song/DSBase",
   "license": {
     "type": "MIT",
@@ -16,7 +16,14 @@
   },
   "source": {
     "git": "https://github.com/swp-song/DSBase.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
-  "source_files": "DSBase/Code/*.swift"
+  "source_files": "DSBase/**/*.swift",
+  "requires_arc": true,
+  "swift_versions": [
+    "4",
+    "4.2",
+    "5.0"
+  ],
+  "swift_version": "5.0"
 }

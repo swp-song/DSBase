@@ -1,30 +1,28 @@
 //
 //  DSBase.swift
-//
+//  DSBase
 //
 //  Created by Dream on 2020/12/8.
 //
 
 public struct DS<DSBase> {
-    
-    var dsBase : DSBase
-    init(_ dsBase : DSBase) {
-        self.dsBase = dsBase
+    public var ds : DSBase
+    public init(_ ds : DSBase) {
+        self.ds = ds
     }
 }
-
 
 public protocol DSCompatible { }
 
 public extension DSCompatible {
     
     var ds : DS<Self> {
-        set {}
+        set { }
         get { DS(self) }
     }
     
     static var ds : DS<Self>.Type {
-        set {}
+        set { }
         get { DS<Self>.self }
     }
 }
