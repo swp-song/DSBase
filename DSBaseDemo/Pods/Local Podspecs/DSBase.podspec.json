@@ -1,6 +1,6 @@
 {
   "name": "DSBase",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "summary": "DSBase",
   "description": "TODO: DSBase",
   "homepage": "https://github.com/swp-song/DSBase",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/swp-song/DSBase.git",
-    "tag": "0.0.2"
+    "tag": "0.0.5"
   },
   "source_files": "DSBase/**/*.swift",
   "requires_arc": true,

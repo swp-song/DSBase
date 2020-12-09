@@ -1,5 +1,5 @@
 PODS:
-  - DSBase (0.0.2)
+  - DSBase (0.0.5)
 
 DEPENDENCIES:
   - DSBase (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DSBase: 3c19f5bd7b25619f2cd6da375ee7ef16ba82a573
+  DSBase: 051c4181d892a656e26b6ce094c2ac0a4e6e7f99
 
 PODFILE CHECKSUM: 3073efbbba170fa011df822d35dffbdb6b79c9a8
 
