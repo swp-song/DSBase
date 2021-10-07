@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DSBase"
-  spec.version      = "2.0.0"
+  spec.version      = "2.1.0"
   spec.summary      = "DSBase"
 
   # This description is used to generate tags and improve search results.
@@ -67,7 +67,7 @@ Pod::Spec.new do |spec|
   #  When using multiple platforms
   spec.ios.deployment_target = "12.0"
   spec.osx.deployment_target = "10.15"
-  spec.watchos.deployment_target = "7.0"
+  # spec.watchos.deployment_target = "7.0"
   spec.tvos.deployment_target = "14.0"
 
 
