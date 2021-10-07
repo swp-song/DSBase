@@ -1,0 +1,13 @@
+author: Dream
+author_url: https://dream-swp.com
+github_url: https://github.com/swp-song/DSBase
+root_url: https://github.com/swp-song/DSBase
+module: DSBase
+output: Documentation
+# theme: fullwidth
+# theme: jony
+theme: apple
+# SMP
+text: ["–swift-build-tool", "spm"]
+# xcodebuild_arguments: [-workspace, 'xx/xx', -scheme, 'xxxx']
+#  jazzy -o Documentation 

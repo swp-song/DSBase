@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DSBase"
-  spec.version      = "1.0.1"
+  spec.version      = "2.0.0"
   spec.summary      = "DSBase"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  TODO: DSBase
+  TODO: DSBase, Prefix DS
                    DESC
 
   spec.homepage     = "https://github.com/swp-song/DSBase"
@@ -64,14 +64,11 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-   spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
-
   #  When using multiple platforms
   spec.ios.deployment_target = "12.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
+  spec.osx.deployment_target = "10.15"
+  spec.watchos.deployment_target = "7.0"
+  spec.tvos.deployment_target = "14.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +89,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source_files  = "DSBase/Code", "DSBase/Code/**/*.swift"
-  spec.source_files          = 'DSBase/**/*.swift'
+  spec.source_files          = 'Sources/**/*.swift'
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -118,7 +115,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  spec.framework  = "Foundation"
+  # spec.framework  = "Foundation"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
@@ -135,8 +132,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-
-   spec.swift_versions = ['4', '4.2', '5.0']
-
+  
+   spec.swift_versions = ['5.1', '5.2', '5.3', '5.4', '5.5']
 
 end
