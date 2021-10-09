@@ -8,6 +8,6 @@ output: Documentation
 # theme: jony
 theme: apple
 # SMP
-text: ["–swift-build-tool", "spm"]
-# xcodebuild_arguments: [-workspace, 'xx/xx', -scheme, 'xxxx']
-#  jazzy -o Documentation 
+# text: ["--swift-build-tool", "spm"]
+xcodebuild_arguments: ["-project", "DSBase.xcodeproj", "-scheme", "DSBase"]
+#  jazzy

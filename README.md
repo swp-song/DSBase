@@ -6,7 +6,7 @@
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/swp-song/DSBase.git", .upToNextMajor(from: "2.1.0"))
+    .package(url: "https://github.com/swp-song/DSBase.git", .upToNextMajor(from: "3.0.0"))
 ]
 ```
 

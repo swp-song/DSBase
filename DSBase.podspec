@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DSBase"
-  spec.version      = "2.2.0"
+  spec.version      = "3.0.0"
   spec.summary      = "DSBase"
 
   # This description is used to generate tags and improve search results.
